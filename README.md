@@ -16,41 +16,10 @@ Library Eksperiment membuat mengedit video / audio / photo di server side & clie
 import 'package:flutter/material.dart';
 import 'package:studio/studio.dart';
 void main() {
-  Map<String, dynamic> app = {
-    "@type": "materialApp",
-    "home": {
-      "@type": "Scaffold",
-      "body": {
-        "@type": "Center",
-        "child": {
-          "@type": "Text",
-          "text": "Hello world \${variable[\"count\"][\"data\"]}",
-          "style": {"@type": "TextStyle", "fontSize": 15}
-        }
-      },
-      "floating_action_button": {
-        "@type": "FloatingActionButton",
-        "tooltip": "Increment",
-        "child": {
-          "@type": "icon",
-          "icon": "add",
-          "onpresed": [
-            {
-              "@type": "updatevariable",
-              "var": {"@type": "state", "count": "increase"}
-            }
-          ]
-        }
-      }
-    },
-    "root": [
-      {
-        "@type": "variable",
-        "var": {"@type": "state", "count": 0}
-      }
-    ]
+  Map<String, dynamic> medias = {
+      
   };
-  runApp(AppView(app));
+  runApp(Studio(medias));
 }
 ``` 
 
@@ -60,8 +29,7 @@ void main() {
 Basic membuat widget / applikasi adalah sebagai berikut
 | key     |              value              | Deskripsi | `required` |
 |---------|:-------------------------------:|:----------|:----------:|
-| `@type` |        [widget](#widget)        |           |   `yes`    |
-| `root`  | object di dalam array [metod]() |           |    `no`    |
+| `@type` |        [Type Edit](#type-edit)        |           |   `yes`    |
 
 Contoh
 ```json
