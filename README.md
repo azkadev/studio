@@ -1,107 +1,67 @@
-# studio
- 
-Library Eksperiment membuat mengedit video / audio / photo di server side & client side.
+IyBzdHVkaW8KIApMaWJyYXJ5IEVrc3BlcmltZW50IG1lbWJ1YXQgbWVuZ2Vk
+aXQgdmlkZW8gLyBhdWRpbyAvIHBob3RvIGRpIHNlcnZlciBzaWRlICYgY2xp
+ZW50IHNpZGUuCgojIyBMaXN0IE1lbnUKICAtIFtEb2NzXSgjZG9jcykKICAt
+IFtRdWlja3N0YXJ0XSgjcXVpY2tzdGFydCkKCiMjIFF1aWNrc3RhcnQKCjxk
+ZXRhaWxzIG9wZW4+CjxzdW1tYXJ5PkNvZGU8L3N1bW1hcnk+CgpgYGBkYXJ0
+Ci8vIGlnbm9yZV9mb3JfZmlsZTogZGVwZW5kX29uX3JlZmVyZW5jZWRfcGFj
+a2FnZXMKaW1wb3J0ICdwYWNrYWdlOmZsdXR0ZXIvbWF0ZXJpYWwuZGFydCc7
+CmltcG9ydCAncGFja2FnZTpzdHVkaW8vc3R1ZGlvLmRhcnQnOwp2b2lkIG1h
+aW4oKSB7CiAgTWFwPFN0cmluZywgZHluYW1pYz4gbWVkaWFzID0gewogICAg
+ICAKICB9OwogIHJ1bkFwcChTdHVkaW8obWVkaWFzKSk7Cn0KYGBgIAoKPC9k
+ZXRhaWxzPgoKIyMgRG9jcwpCYXNpYyBtZW1idWF0IHdpZGdldCAvIGFwcGxp
+a2FzaSBhZGFsYWggc2ViYWdhaSBiZXJpa3V0Cnwga2V5ICAgICB8ICAgICAg
+ICAgICAgICB2YWx1ZSAgICAgICAgICAgICAgfCBEZXNrcmlwc2kgfCBgcmVx
+dWlyZWRgIHwKfC0tLS0tLS0tLXw6LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLTp8Oi0tLS0tLS0tLS18Oi0tLS0tLS0tLS06fAp8IGBAdHlwZWAg
+fCAgICAgICAgW1R5cGUgRWRpdF0oI3R5cGUtZWRpdCkgICAgICAgIHwgICAg
+ICAgICAgIHwgICBgeWVzYCAgICB8CgpDb250b2gKYGBganNvbgp7CiAgICAi
+QHR5cGUiOiAidmlkZW8iLAogICAgIm1lZGlhcyI6IFsKICAgICAgICBbCiAg
+ICAgICAgICAgIHsKICAgICAgICAgICAgICAgICJAdHlwZSI6ICJ2aWRlbyIs
+CiAgICAgICAgICAgICAgICAidmlkZW8iOiAiL3ZpZGUubXA0IiwKICAgICAg
+ICAgICAgICAgICJkdXJhdGlvbiI6IDEyMzQ1CiAgICAgICAgICAgIH0sCiAg
+ICAgICAgICAgIHsKICAgICAgICAgICAgICAgICJAdHlwZSI6ICJ2aWRlbyIs
+CiAgICAgICAgICAgICAgICAidmlkZW8iOiAiL3ZpZGUubXA0IiwKICAgICAg
+ICAgICAgICAgICJkdXJhdGlvbiI6IDEyMzQ1CiAgICAgICAgICAgIH0KICAg
+ICAgICBdLAogICAgICAgIFsKICAgICAgICAgICAgewogICAgICAgICAgICAg
+ICAgIkB0eXBlIjogInBob3RvIiwKICAgICAgICAgICAgICAgICJwaG90byI6
+ICIvcGhvdG8ucG5nIiwKICAgICAgICAgICAgICAgICJkdXJhdGlvbiI6IDEy
+MzQ1CiAgICAgICAgICAgIH0KICAgICAgICBdCiAgICBdLAogICAgImF1ZGlv
+cyI6IFsKICAgICAgICB7CiAgICAgICAgICAgICJAdHlwZSI6ICJhdWRpbyIs
+CiAgICAgICAgICAgICJwYXRoIjogIi9zb25nLm1wMyIKICAgICAgICB9CiAg
+ICBdCn0KYGBgCgojIyB0eXBlIGVkaXQKCiMjIyMgQXVkaW8KfCBrZXkgICAg
+IHwgICAgICAgdmFsdWUgICAgICAgfCBEZXNrcmlwc2kgfCBgcmVxdWlyZWRg
+IHwKfC0tLS0tLS0tLXw6LS0tLS0tLS0tLS0tLS0tLS06fDotLS0tLS0tLS0t
+fDotLS0tLS0tLS0tOnwKfCBgQHR5cGVgIHwgICAgYGF1ZGlvYCAgICAgfCAg
+ICAgICAgICAgfCAgIGB5ZXNgICAgIHwKfCBgYXVkaW9zYCAgfCBbQXVkaW9d
+KCNhdWRpbykgfCAgICAgICAgICAgfCAgIGB5ZXNgICAgIHwKCiMjIyMgUGhv
+dG8KfCBrZXkgICAgIHwgICAgICAgdmFsdWUgICAgICAgfCBEZXNrcmlwc2kg
+fCBgcmVxdWlyZWRgIHwKfC0tLS0tLS0tLXw6LS0tLS0tLS0tLS0tLS0tLS06
+fDotLS0tLS0tLS0tfDotLS0tLS0tLS0tOnwKfCBgQHR5cGVgIHwgICAgYHBo
+b3RvYCAgICAgfCAgICAgICAgICAgfCAgIGB5ZXNgICAgIHwKfCBgbWVkaWFz
+YCAgfCBbUGhvdG9dKCNwaG90bykgfCAgICAgICAgICAgfCAgIGB5ZXNgICAg
+IHwKCiMjIyMgVmlkZW8KfCBrZXkgICAgIHwgICAgICAgdmFsdWUgICAgICAg
+fCBEZXNrcmlwc2kgfCBgcmVxdWlyZWRgIHwKfC0tLS0tLS0tLXw6LS0tLS0t
+LS0tLS0tLS0tLS06fDotLS0tLS0tLS0tfDotLS0tLS0tLS0tOnwKfCBgQHR5
+cGVgIHwgICAgYHZpZGVvYCAgICAgfCAgICAgICAgICAgfCAgIGB5ZXNgICAg
+IHwKfCBgbWVkaWFzYCAgfCBbV2lkZ2V0XSgjbWV0aG9kcykgfCAgICAgICAg
+ICAgfCAgIGB5ZXNgICAgIHwKfCBgYXVkaW9zYCAgfCBbQXVkaW9dKCNhdWRp
+bykgfCAgICAgICAgICAgfCAgIGBub2AgICAgfAoKIyMgbWV0aG9kcwoKIyMj
+IyBBdWRpbwp8IGtleSAgICAgfCAgICAgICB2YWx1ZSAgICAgICB8IERlc2ty
+aXBzaSB8IGByZXF1aXJlZGAgfAp8LS0tLS0tLS0tfDotLS0tLS0tLS0tLS0t
+LS0tLTp8Oi0tLS0tLS0tLS18Oi0tLS0tLS0tLS06fAp8IGBAdHlwZWAgfCAg
+ICBgYXVkaW9gICAgIHwgICAgICAgICAgIHwgICBgeWVzYCAgICB8CnwgYGF1
+ZGlvYCB8IFN0cmluZyBwYXRoIHwgICAgICAgICAgIHwgICBgeWVzYCAgICB8
+CgojIyMjIFBob3RvCnwga2V5ICAgICB8ICAgICAgIHZhbHVlICAgICAgIHwg
+RGVza3JpcHNpIHwgYHJlcXVpcmVkYCB8CnwtLS0tLS0tLS18Oi0tLS0tLS0t
+LS0tLS0tLS0tOnw6LS0tLS0tLS0tLXw6LS0tLS0tLS0tLTp8CnwgYEB0eXBl
+YCB8ICAgIGBwaG90b2AgICAgfCAgICAgICAgICAgfCAgIGB5ZXNgICAgIHwK
+fCBgcGhvdG9gIHwgU3RyaW5nIHBhdGggfCAgICAgICAgICAgfCAgIGB5ZXNg
+ICAgIHwKCiMjIyMgVmlkZW8KfCBrZXkgICAgIHwgdmFsdWUgIHwgRGVza3Jp
+cHNpIHwgYHJlcXVpcmVkYCB8CnwtLS0tLS0tLS18Oi0tLS0tLTp8Oi0tLS0t
+LS0tLS18Oi0tLS0tLS0tLS06fAp8IGBAdHlwZWAgfCBgdmlkZW9gIHwgICAg
+ICAgICAgIHwgICBgeWVzYCAgICB8CnwgYHZpZGVvYCAgfCBzdHJpbmcgcGF0
+aCB8ICAgICAgICAgICB8ICAgYHllc2AgICAgfAo=
 
-## List Menu
-  - [Docs](#docs)
-  - [Quickstart](#quickstart)
-
-## Quickstart
-
-<details open>
-<summary>Code</summary>
-
-```dart
-// ignore_for_file: depend_on_referenced_packages
-import 'package:flutter/material.dart';
-import 'package:studio/studio.dart';
-void main() {
-  Map<String, dynamic> medias = {
-      
-  };
-  runApp(Studio(medias));
-}
-``` 
-
-</details>
-
-## Docs
-Basic membuat widget / applikasi adalah sebagai berikut
-| key     |              value              | Deskripsi | `required` |
-|---------|:-------------------------------:|:----------|:----------:|
-| `@type` |        [Type Edit](#type-edit)        |           |   `yes`    |
-
-Contoh
-```json
-{
-    "@type": "video",
-    "medias": [
-        [
-            {
-                "@type": "video",
-                "video": "/vide.mp4",
-                "duration": 12345
-            },
-            {
-                "@type": "video",
-                "video": "/vide.mp4",
-                "duration": 12345
-            }
-        ],
-        [
-            {
-                "@type": "photo",
-                "photo": "/photo.png",
-                "duration": 12345
-            }
-        ]
-    ],
-    "audios": [
-        {
-            "@type": "audio",
-            "path": "/song.mp3"
-        }
-    ]
-}
-```
-
-## type edit
-
-#### Audio
-| key     |       value       | Deskripsi | `required` |
-|---------|:-----------------:|:----------|:----------:|
-| `@type` |    `audio`     |           |   `yes`    |
-| `audios`  | [Audio](#audio) |           |   `yes`    |
-
-#### Photo
-| key     |       value       | Deskripsi | `required` |
-|---------|:-----------------:|:----------|:----------:|
-| `@type` |    `photo`     |           |   `yes`    |
-| `medias`  | [Photo](#photo) |           |   `yes`    |
-
-#### Video
-| key     |       value       | Deskripsi | `required` |
-|---------|:-----------------:|:----------|:----------:|
-| `@type` |    `video`     |           |   `yes`    |
-| `medias`  | [Widget](#methods) |           |   `yes`    |
-| `audios`  | [Audio](#audio) |           |   `no`    |
-
-## methods
-
-#### Audio
-| key     |       value       | Deskripsi | `required` |
-|---------|:-----------------:|:----------|:----------:|
-| `@type` |    `audio`    |           |   `yes`    |
-| `audio` | String path |           |   `yes`    |
-
-#### Photo
-| key     |       value       | Deskripsi | `required` |
-|---------|:-----------------:|:----------|:----------:|
-| `@type` |    `photo`    |           |   `yes`    |
-| `photo` | String path |           |   `yes`    |
-
-#### Video
-| key     | value  | Deskripsi | `required` |
-|---------|:------:|:----------|:----------:|
-| `@type` | `video` |           |   `yes`    |
-| `video`  | string path |           |   `yes`    |
+<!-- START GLOBAL CORPORATION -->
+404: Not Found
+<!-- END GLOBAL CORPORATION -->
